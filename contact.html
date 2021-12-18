@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contact</title>
+  </head>
+  <body class="container">
+    <header class="header purple-border">
+      <nav>
+        <ul class="ul-sett">
+          <li class="li li-hover">
+            <a class="a-sett text-all-center-txt-dec-ovrflw" href="index.html"
+              >HOME</a
+            >
+          </li>
+          <li class="li li-hover">
+            <a class="a-sett text-all-center-txt-dec-ovrflw" href="about.html"
+              >ABOUT</a
+            >
+          </li>
+          <li class="li li-hover">
+            <a class="a-sett text-all-center-txt-dec-ovrflw" href="blog.html"
+              >BLOG</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="black-background main purple-border">
+      <article class="flex-container">
+        <section
+          class="flex-item2 flex-item-child text-all-center-txt-dec-ovrflw"
+        >
+          <h2 class="text-all-center-txt-dec-ovrflw">
+            <form
+              class="flex-item2 purple-border2"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
+              <p>
+                <label
+                  >Your Name: <br />
+                  <input type="text" name="name" size="7"
+                /></label>
+              </p>
+              <p>
+                <label
+                  >Your Email: <br />
+                  <input type="email" name="email" size="7"
+                /></label>
+              </p>
+              <p>
+                <label
+                  >Telnumber: <br />
+                  <input type="tel" name="telephone" size="7"
+                /></label>
+              </p>
+              <p>
+                <label
+                  >Male:
+
+                  <input type="radio" name="Attending" value="Attending" />
+                  <br />Select if male</label
+                >
+              </p>
+              <p>
+                <label
+                  >Female:
+
+                  <input type="radio" name="Attending" value="Attending" />
+                  <br />Select if female</label
+                >
+              </p>
+              <p class="checkbox-label">Favorite JB genre:*</p>
+              <div name="checkbox-container" class="checkbox-container">
+                <label class="checkbox-wrapper"
+                  >Soul
+                  <input type="checkbox" name="Genre" id="Genre-checkbox" />
+                </label>
+                <label class="checkbox-wrapper"
+                  >Funk
+                  <input type="checkbox" name="Funk" id="Funk-checkbox" />
+                </label>
+                <label class="checkbox-wrapper"
+                  >Jazz
+                  <input type="checkbox" name="Jazz" id="Jazz-checkbox" />
+                </label>
+                <label class="checkbox-wrapper"
+                  >Remix
+                  <input type="checkbox" name="Remix" id="Remix-checkbox" />
+                </label>
+              </div>
+              <p>
+                <label
+                  >Why do you like <br />
+                  James Brown?: <br />
+                  <textarea rows="2" cols="10" name="message"></textarea>
+                </label>
+              </p>
+              <p>
+                <input type="reset" value="Reset" />
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form>
+          </h2>
+        </section>
+      </article>
+    </main>
+    <footer class="footer purple-border text-all-center-txt-dec-ovrflw">
+      Copyright PK
+    </footer>
+  </body>
+</html>
